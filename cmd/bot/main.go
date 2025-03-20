@@ -13,14 +13,14 @@ import (
 )
 
 func main() {
-	bot, err := tgbotapi.NewBotAPI("8115415884:AAEkcU1_x9B1oG8SuJaFs6sdcnCezW1elbo")
+	bot, err := tgbotapi.NewBotAPI("your-access-token")
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	bot.Debug = true
 
-	pocketClient, err := pocket.NewClient("113751-589e9b8b5ebe79397a7cb1c")
+	pocketClient, err := pocket.NewClient("your-pocket-tokengit status")
 	if err != nil {
 		log.Fatal(err)
 	}
